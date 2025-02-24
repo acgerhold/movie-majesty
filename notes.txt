@@ -1,0 +1,19 @@
+* Chapter 1 - Creating project template and GitHub repository
+
+Creating a well-structured project directory and HTML file is crucial for any web development project. 
+It serves as the foundation upon which we will build our movie collection showcase.
+
+By separating concerns and organizing our files into dedicated directories (styles and scripts), we keep our code modular and maintainable. 
+The <section> element with the ID movie-list provides a designated area where we will dynamically add our movie cards using JavaScript.
+
+* Chapter 2 - Creating the movies database to export
+
+Creating separate data files is a common practice in web development. 
+It allows us to keep our data organized and separate from the application logic. 
+By storing the movie data in a JavaScript file, we can easily import and use it in different parts of our application.
+
+In this chapter, we created an array of movie objects, each containing properties like title, poster, and description. 
+These properties provide the necessary information to generate the movie cards in our showcase.
+
+Exporting the movies array using the export keyword allows us to import it in other files using the import statement. 
+This way, we can access the movie data and use it to generate the movie cards dynamically.
